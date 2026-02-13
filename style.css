@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-height: 100dvh;
+    background-color: #ffffff;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    /* border: 1px solid chartreuse; */
+    width: 350px;
+    margin: 80px auto;
+    border-radius: 10px;
+}
+
+.container .top {
+    /* border: 1px solid coral; */
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #44494c;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container .top .screen {
+    width: 87%;
+    height: 60%;
+    border-radius: 5px;
+    /* border: 1px solid yellowgreen; */
+    background-color: #c5c5c5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.screen p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #323232;
+    transition: all ease 0.3s;
+}
+
+.screen .output {
+    color: #44494c;
+}
+
+.container .bottom {
+    background-color: #7cb5c8;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.container .bottom .btns {
+    width: 311.999px;
+    /* height: fit-content; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    margin: auto;
+    /* border: 1px solid white; */
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+.margin-bottom {
+    margin-bottom: 10px;
+}
+
+.btn {
+    height: 70px;
+    width: 70px;
+    /* border: 1px solid crimson; */
+    font-size: 27px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #5c94a1;
+}
+
+.symbol {
+    font-size: 35px;
+}
+
+#back {
+    font-size: 30px;
+}
+
+.equal-btn {
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid crimson; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #467c86;
+}
