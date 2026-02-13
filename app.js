@@ -16,7 +16,7 @@ for (let btn of allBtn) {
         this.style.backgroundColor = "#24616eff";
         setTimeout(() => {
             btn.style.backgroundColor = "#5c94a1";
-        }, 200);
+        }, 250);
 
 
 
@@ -42,7 +42,7 @@ for (let btn of allBtn) {
             btn.style.backgroundColor = "#266f7cff";
             setTimeout(() => {
                 btn.style.backgroundColor = "#467c86";
-            }, 200);
+            }, 250);
 
         }
         strCopy = str;
@@ -55,7 +55,7 @@ for (let btn of allBtn) {
             inputText.innerText = "";
         }
 
-        inputText.innerHTML = strCopy;
+        inputText.innerText = strCopy;
 
 
         if (btnId == "back") {
