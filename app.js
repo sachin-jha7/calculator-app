@@ -45,12 +45,18 @@ for (let btn of allBtn) {
             }, 200);
 
         }
+        strCopy = str;
+
 
         if (btnId == "C") {
             str = "";
+            strCopy = "";
             outputText.innerText = "";
             inputText.innerText = "";
         }
+
+        inputText.innerHTML = strCopy;
+
 
         if (btnId == "back") {
             str = str.slice(0, -4);
@@ -69,7 +75,6 @@ for (let btn of allBtn) {
             }
         }
 
-        strCopy = str;
 
         for (let i = 0; i < str.length; i++) {
             if (str[i] == "+" || str[i] == "-" || str[i] == "*" || str[i] == "/") {
@@ -81,6 +86,6 @@ for (let btn of allBtn) {
                 }
             }
         }
-        inputText.innerText = strCopy;
+
     });
 }
