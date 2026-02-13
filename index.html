@@ -4,43 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator App</title>
-    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="cal_logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h2>Calculator</h2>
     <div class="container">
-        <div class="lineOne">
-            <p class="screen"></p>
-            <p class="output"></p>
+        <div class="top">
+            <div class="screen">
+                <p class="input"></p>
+                <p class="output"></p>
+            </div>
         </div>
-        <div class="lineTwo">
-            <div class="clearBtn" >C</div>
-            <div class="box" id="7">7</div>
-            <div class="box" id="4">4</div>
-            <div class="box" id="1">1</div>
-        </div>
-        <div class="lineThree">
-            <div class="box" id="+">&plus;</div>
-            <div class="box" id="8">8</div>
-            <div class="box" id="5">5</div>
-            <div class="box" id="2">2</div>
-        </div>
-        <div class="lineFour">
-            <div class="box" id="-">&minus;</div>
-            <div class="box" id="9">9</div>
-            <div class="box" id="6">6</div>
-            <div class="box" id="3">3</div>
-        </div>
-        <div class="lineFive">
-            <div class="box" id="/">&divide;</div>
-            <div class="box" id="*">&times;</div>
-            <div class="equal" >&equals;</div>
-            <div class="box" id="0">0</div>
+        <div class="bottom">
+            <div class="btns">
+                <div class="btn margin-top" id="1">1</div>
+                <div class="btn margin-top" id="2">2</div>
+                <div class="btn margin-top" id="3">3</div>
+                <div class="btn margin-top" id="4">4</div>
+                <div class="btn" id="5">5</div>
+                <div class="btn" id="6">6</div>
+                <div class="btn" id="7">7</div>
+                <div class="btn" id="8">8</div>
+                <div class="btn" id="9">9</div>
+                <div class="btn" id="0">0</div>
+                <div class="btn" id="C">C</div>
+                <div class="btn" id="back"><i class="fa-solid fa-delete-left"></i></div>
+                <div class="btn symbol" id="+">&plus;</div>
+                <div class="btn symbol" id="-">&minus;</div>
+                <div class="btn symbol" id="*">&times;</div>
+                <div class="btn symbol" id="/">&divide;</div>
+                <div class="equal-btn btn symbol margin-bottom" id="=">&equals;</div>
+            </div>
         </div>
     </div>
-    <script src="calculator.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/to-words/dist/umd/to-words.min.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
